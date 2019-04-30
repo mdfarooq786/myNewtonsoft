@@ -21,6 +21,8 @@ namespace myNewtonSoft
             string personJSON = JsonConvert.SerializeObject(person);
 
             Console.WriteLine(personJSON);
+
+            Console.WriteLine("Done...!");
         }
     }
 }
